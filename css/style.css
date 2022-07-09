@@ -1181,7 +1181,6 @@ canvas {
 
     .mv-box {
         display: initial;
-        position: relative;
     }
 
     .moc-pc,
@@ -1219,7 +1218,6 @@ canvas {
         left: 50%;
         transform: translateX(-50%);
         margin: 0 0 32px 0;
-        position: relative;
     }
 
     .scroll-box-sp {
@@ -1228,8 +1226,6 @@ canvas {
         top: 246px;
         left: 11px;
         border-radius: 25px;
-        position: absolute;
-
     }
 
 }
