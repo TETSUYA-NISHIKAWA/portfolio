@@ -145,7 +145,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 32px 0;
+    padding: 32px 24px;
 }
 
 .mv-container {
@@ -273,7 +273,7 @@ canvas {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    left: 40px;
+    left: 2%;
     height: fit-content;
     transform: translateY(-50%) rotate(180deg);
 }
@@ -849,7 +849,7 @@ canvas {
 
 /*media Queries 1024
 ----------------------------------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
 
     html {
         font-size: 15px;
@@ -989,7 +989,7 @@ canvas {
 
 /*media Queries 599
 ----------------------------------------------------*/
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 667px) {
 
     html {
         font-size: 14px;
@@ -1023,7 +1023,7 @@ canvas {
     /* レイアウト lay3 */
 
     .mv {
-        margin-bottom: 64px;
+        margin: 16px 0 64px 0;
     }
 
     .section {
