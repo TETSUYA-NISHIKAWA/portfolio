@@ -1156,6 +1156,7 @@ canvas {
     .article-container {
         padding: 0 24px;
         max-width: 375px;
+            background-color: tan;
     }
 
     .article-title {
@@ -1181,6 +1182,7 @@ canvas {
 
     .mv-box {
         display: initial;
+        position: relative;
     }
 
     .moc-pc,
@@ -1218,6 +1220,7 @@ canvas {
         left: 50%;
         transform: translateX(-50%);
         margin: 0 0 32px 0;
+        position: relative;
     }
 
     .scroll-box-sp {
