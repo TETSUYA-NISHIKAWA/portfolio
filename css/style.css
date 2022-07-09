@@ -1156,6 +1156,8 @@ canvas {
     .article-container {
         padding: 0 24px;
         max-width: 375px;
+            background-color: cadetblue;
+
     }
 
     .article-title {
@@ -1180,7 +1182,8 @@ canvas {
     }
 
     .mv-box {
-        display: initial;
+        display: inline;
+        back
     }
 
     .moc-pc,
