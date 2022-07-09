@@ -1177,10 +1177,14 @@ canvas {
 
     .article-body p {
         line-height: 1.7;
+            color: tan;
+
     }
 
     .mv-box {
-        display: unset;
+        display: block;
+        height: auto;
+        margin-bottom: 48px;
     }
 
     .moc-pc,
