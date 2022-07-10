@@ -847,7 +847,7 @@ canvas {
     text-align: center;
 }
 
-/*media Queries 1024
+/*media Queries 1180
 ----------------------------------------------------*/
 @media screen and (max-width: 1180px) {
 
@@ -987,7 +987,7 @@ canvas {
 
 }
 
-/*media Queries 599
+/*media Queries 667
 ----------------------------------------------------*/
 @media screen and (max-width: 667px) {
 
@@ -1177,8 +1177,6 @@ canvas {
 
     .article-body p {
         line-height: 1.7;
-            color: tan;
-
     }
 
     .mv-box {
