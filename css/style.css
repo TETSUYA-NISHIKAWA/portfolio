@@ -814,6 +814,19 @@ canvas {
     background-color: #0E1925;
 }
 
+.article-body h4 {
+    font-size: 1rem;
+    line-height: 2;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.article-body p {
+    line-height: 1.8;
+    margin-bottom: 64px;
+    font-weight: 300;
+}
+
 .article-body .item {
     margin-bottom: 16px;
     padding-left: 1em;
@@ -828,19 +841,6 @@ canvas {
 .article-body .item:last-of-type,
 .article-body .item-only:last-of-type {
     margin-bottom: 64px;
-}
-
-.article-body h4 {
-    font-size: 1rem;
-    line-height: 2;
-    text-indent: -1em;
-    padding-left: 1em;
-}
-
-.article-body p {
-    line-height: 1.8;
-    margin-bottom: 64px;
-    font-weight: 300;
 }
 
 .home-link {
@@ -1165,18 +1165,21 @@ canvas {
     .theme {
         margin-bottom: 40px;
     }
-
+    
     .article-body h3 {
         font-size: 16px;
         padding-left: .8em;
     }
 
-    .article-body .fadeInTriggerOnce:first-of-type {
-        margin-top: 40px;
-    }
-
     .article-body p {
         line-height: 1.7;
+        margin-bottom: 48px;
+    }
+    
+    .article-body .item:nth-of-type(4),
+    .article-body .item:last-of-type,
+    .article-body .item-only:last-of-type {
+    margin-bottom: 48px;
     }
 
     .mv-box {
