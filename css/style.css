@@ -20,7 +20,7 @@ body {
 a {
     transition: 0.3s;
     text-decoration: none;
-    color: #1ca9e3;
+    color: #212121;
 }
 
 img {
@@ -835,17 +835,21 @@ canvas {
     text-indent: -1em;
 }
 
-.article-body .item:nth-of-type(4) {
-    margin-bottom: 64px;
-}
-
+.article-body .item:nth-of-type(4),
 .article-body .item:last-of-type,
 .article-body .item-only:last-of-type {
-    margin-bottom: 96px;
+    margin-bottom: 64px;
 }
 
 .home-link {
     text-align: center;
+    margin-top: 96px;
+}
+
+.home-link a {
+    border-bottom: solid 3px;
+    padding-bottom: 4px;
+    font-weight: 300;
 }
 
 .article .works-list {
@@ -1180,7 +1184,7 @@ canvas {
     .theme {
         margin-bottom: 40px;
     }
-    
+
     .article-body h3 {
         font-size: 16px;
         padding-left: .8em;
@@ -1190,11 +1194,11 @@ canvas {
         line-height: 1.7;
         margin-bottom: 48px;
     }
-    
+
     .article-body .item:nth-of-type(4),
     .article-body .item:last-of-type,
     .article-body .item-only:last-of-type {
-    margin-bottom: 48px;
+        margin-bottom: 48px;
     }
 
     .mv-box {
