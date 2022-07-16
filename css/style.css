@@ -365,8 +365,6 @@ canvas {
 
 .ZoomOpacity {
     overflow: hidden;
-    background: #000;
-    /*border: 1px solid #e6e6e6;*/
 }
 
 .ZoomOpacity img {
@@ -845,6 +843,20 @@ canvas {
 
 .home-link {
     text-align: center;
+}
+
+.article .works-list {
+    display: flex;
+    flex-wrap: inherit;
+    margin-top: 48px;
+}
+
+.article .works-list:after {
+    content: none;
+}
+
+.article .works-item {
+    margin-bottom: 64px;
 }
 
 /*media Queries 1180
