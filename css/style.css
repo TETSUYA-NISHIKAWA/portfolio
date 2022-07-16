@@ -644,7 +644,7 @@ canvas {
 ---------------------------------*/
 
 .article {
-    padding: 64px 0;
+    padding: 64px 0 96px 0;
 }
 
 .article-container {
@@ -850,12 +850,13 @@ canvas {
     border-bottom: solid 3px;
     padding-bottom: 4px;
     font-weight: 300;
+    color: #212121;
 }
 
 .article .works-list {
     display: flex;
     flex-wrap: inherit;
-    margin-top: 48px;
+    margin: 48px 0 0 0;
 }
 
 .article .works-list:after {
@@ -863,7 +864,7 @@ canvas {
 }
 
 .article .works-item {
-    margin-bottom: 64px;
+    margin-bottom: 0;
 }
 
 /*media Queries 1180
@@ -1252,4 +1253,7 @@ canvas {
         border-radius: 25px;
     }
 
+    .home-link {
+        margin-top: 64px;
+    }
 }
