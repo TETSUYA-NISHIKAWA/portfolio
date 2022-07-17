@@ -149,7 +149,7 @@ body {
 }
 
 .mv-container {
-    padding: 0 96px;
+    padding: 0 48px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -266,7 +266,7 @@ canvas {
 }
 
 .header-logo {
-    font-size: 2.441rem;
+    font-size: 1.953rem;
     font-weight: 600;
     letter-spacing: .05em;
     writing-mode: vertical-rl;
@@ -337,8 +337,8 @@ canvas {
     top: 0;
     bottom: 0;
     margin: auto;
-    right: -10%;
-    width: 65%;
+    right: -9%;
+    width: 66%;
 }
 
 /*--------------------------------
