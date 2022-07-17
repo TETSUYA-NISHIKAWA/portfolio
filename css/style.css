@@ -743,10 +743,7 @@ canvas {
 
 /* バナー用 size */
 
-.scroll-box-white {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+.box-white {
     position: absolute;
     height: 425px;
     width: 684px;
@@ -757,7 +754,7 @@ canvas {
     background-color: #fff;
 }
 
-.scroll-box-white img {
+.box-white img {
     position: absolute;
     width: 55%;
     left: 50%;
@@ -979,7 +976,7 @@ canvas {
 
     .scroll-box-pc,
     .scroll-box-pc-only,
-    .scroll-box-white {
+    .box-white {
         height: 249px;
         width: 403px;
         top: 18px;
@@ -987,7 +984,7 @@ canvas {
     }
 
     .scroll-box-pc-only,
-    .scroll-box-white {
+    .box-white {
         left: 50%;
     }
 
@@ -1219,7 +1216,7 @@ canvas {
 
     .scroll-box-pc,
     .scroll-box-pc-only,
-    .scroll-box-white {
+    .box-white {
         height: 165px;
         width: 267px;
         top: 12px;
@@ -1227,11 +1224,11 @@ canvas {
     }
 
     .scroll-box-pc-only,
-    .scroll-box-white {
+    .box-white {
         left: 50%;
     }
 
-    .scroll-box-white img {
+    .box-white img {
         width: 60%;
     }
 
