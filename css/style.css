@@ -145,7 +145,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 32px 24px;
+    padding: 24px;
 }
 
 .mv-container {
@@ -338,7 +338,7 @@ canvas {
     bottom: 0;
     margin: auto;
     right: -8%;
-    width: 65%;
+    width: 64%;
 }
 
 /*--------------------------------
