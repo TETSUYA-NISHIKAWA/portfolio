@@ -212,7 +212,7 @@ canvas {
  見出し tit1
 ---------------------------------*/
 .title {
-    font-size: 3.815rem;
+    font-size: 4.768rem;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 64px;
@@ -933,6 +933,10 @@ canvas {
     .mv-img {
         right: -35%;
         width: 80%;
+    }
+    
+    .title {
+        font-size: 3.815rem;
     }
 
     /* works wor2 */
