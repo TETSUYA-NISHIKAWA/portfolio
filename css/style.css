@@ -149,7 +149,7 @@ body {
 }
 
 .mv-container {
-    padding: 0 48px;
+    padding: 0 96px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -337,8 +337,8 @@ canvas {
     top: 0;
     bottom: 0;
     margin: auto;
-    right: -8%;
-    width: 64%;
+    right: -5%;
+    width: 58%;
 }
 
 /*--------------------------------
