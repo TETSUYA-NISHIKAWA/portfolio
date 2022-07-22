@@ -687,8 +687,6 @@ canvas {
     background-size: contain;
     z-index: 1;
     pointer-events: none;
-    border-radius: 0 0 41px 41px;
-    box-shadow: 0px 8px 5px -5px rgb(0 0 0 / 90%);
 }
 
 .moc-pc-only {
@@ -710,7 +708,7 @@ canvas {
     -ms-overflow-style: none;
     position: absolute;
     height: 402px;
-    width: 648px;
+    width: 652px;
     top: 29px;
     left: 94px;
     margin: 0 auto;
@@ -724,7 +722,8 @@ canvas {
     height: 453px;
     width: 210px;
     top: 11px;
-    right: 13px;
+    right: 25px;
+    box-shadow: 0px 20px 5px -5px rgb(0 0 0 / 75%);
     border-radius: 25px;
     margin: 0 auto;
 }
