@@ -672,7 +672,7 @@ canvas {
     background: url(../img/works_page/moc_mac.png);
     background-repeat: no-repeat;
     position: relative;
-    width: 94%;
+    width: 90%;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
@@ -683,7 +683,6 @@ canvas {
     background-repeat: no-repeat;
     position: relative;
     width: 26.6%;
-    margin-left: 16px;
     height: 475px;
     background-size: contain;
     z-index: 1;
@@ -710,10 +709,10 @@ canvas {
     scrollbar-width: none;
     -ms-overflow-style: none;
     position: absolute;
-    height: 401px;
-    width: 646px;
+    height: 402px;
+    width: 648px;
     top: 29px;
-    left: 95px;
+    left: 94px;
     margin: 0 auto;
 }
 
@@ -726,7 +725,7 @@ canvas {
     width: 210px;
     top: 11px;
     right: 13px;
-    border-radius: 5px;
+    border-radius: 25px;
     margin: 0 auto;
 }
 
