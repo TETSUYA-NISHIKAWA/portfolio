@@ -338,7 +338,7 @@ canvas {
     bottom: 0;
     margin: auto;
     right: -5%;
-    width: 57%;
+    width: 56%;
 }
 
 /*--------------------------------
@@ -650,7 +650,7 @@ canvas {
 .article-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 48px;
+    padding: 0 96px;
 }
 
 .mv-box {
@@ -672,7 +672,7 @@ canvas {
     background: url(../img/works_page/moc_mac.png);
     background-repeat: no-repeat;
     position: relative;
-    width: 100%;
+    width: 94%;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
@@ -683,11 +683,12 @@ canvas {
     background-repeat: no-repeat;
     position: relative;
     width: 26.6%;
-    height: 500px;
+    margin-left: 16px;
+    height: 475px;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
-    border-radius: 43px;
+    border-radius: 0 0 41px 41px;
     box-shadow: 0px 8px 5px -5px rgb(0 0 0 / 90%);
 }
 
@@ -709,10 +710,10 @@ canvas {
     scrollbar-width: none;
     -ms-overflow-style: none;
     position: absolute;
-    height: 424px;
-    width: 685px;
-    top: 31px;
-    left: 99px;
+    height: 401px;
+    width: 646px;
+    top: 29px;
+    left: 95px;
     margin: 0 auto;
 }
 
@@ -721,10 +722,11 @@ canvas {
     scrollbar-width: none;
     -ms-overflow-style: none;
     position: absolute;
-    height: 476px;
-    width: 221px;
-    top: 12px;
-    right: 14px;
+    height: 453px;
+    width: 210px;
+    top: 11px;
+    right: 13px;
+    border-radius: 5px;
     margin: 0 auto;
 }
 
