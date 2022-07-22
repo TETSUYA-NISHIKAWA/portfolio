@@ -672,21 +672,48 @@ canvas {
     background: url(../img/works_page/moc_mac.png);
     background-repeat: no-repeat;
     position: relative;
-    width: 90%;
+    width: 80%;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
+}
+
+.scroll-box-pc {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: absolute;
+    height: 418px;
+    width: 675px;
+    top: 30px;
+    left: 98px;
+    margin: 0 auto;
 }
 
 .moc-sp {
     background: url(../img/works_page/moc_sp.png);
     background-repeat: no-repeat;
     position: relative;
-    width: 26.6%;
+    width: 20%;
     height: 475px;
+    top: 22px;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
+}
+
+.scroll-box-sp {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: absolute;
+    height: 418px;
+    width: 195px;
+    top: 32px;
+    right: 11px;
+    /* box-shadow: 0px 20px 5px -5px rgb(0 0 0 / 75%); */
+    border-radius: 25px;
+    margin: 0 auto;
 }
 
 .moc-pc-only {
@@ -698,34 +725,6 @@ canvas {
     background-position: center;
     z-index: 1;
     pointer-events: none;
-}
-
-/* comp size */
-
-.scroll-box-pc {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    position: absolute;
-    height: 402px;
-    width: 652px;
-    top: 29px;
-    left: 94px;
-    margin: 0 auto;
-}
-
-.scroll-box-sp {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    position: absolute;
-    height: 453px;
-    width: 210px;
-    top: 11px;
-    right: 25px;
-    box-shadow: 0px 20px 5px -5px rgb(0 0 0 / 75%);
-    border-radius: 25px;
-    margin: 0 auto;
 }
 
 .scroll-box-pc-only {
