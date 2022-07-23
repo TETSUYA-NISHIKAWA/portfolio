@@ -988,17 +988,16 @@ canvas {
     }
 
     .moc-sp {
-        height: 292.5px;
-        width: 26%;
-        border-radius: 25px;
+        width: 18%;
+        top: 16px;
     }
 
     .scroll-box-sp {
-        height: 279px;
-        width: 130px;
-        top: 7px;
-        right: 8px;
-        border-radius: 16px;
+        height: 245px;
+        width: 115px;
+        top: 21px;
+        right: 20px;
+        border-radius: 15px;
     }
 
 }
@@ -1235,18 +1234,16 @@ canvas {
     .moc-sp {
         height: 460px;
         width: 70%;
-        border-radius: 40px;
         left: 50%;
         transform: translateX(-50%);
         margin: 0 0 32px 0;
     }
 
     .scroll-box-sp {
-        height: 438px;
-        width: 205px;
-        top: 246px;
-        left: 11px;
-        border-radius: 25px;
+        height: 440px;
+        width: 204px;
+        top: 261px;
+        left: 20px;
     }
 
     .home-link {
