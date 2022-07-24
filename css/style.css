@@ -957,6 +957,28 @@ canvas {
     .animation {
         top: 35%;
     }
+    
+    /* skill ski2 */
+    
+    .rate1:after {
+        width: 15px;
+    }
+    
+    .rate1_5:after {
+        width: 27.5px;
+    }
+    
+    .rate2:after {
+        width: 35px;
+    }
+    
+    .rate2_5:after {
+        width: 46.5px;
+    }
+    
+    .rate3:after {
+        width: 55px;
+    }
 
     /* 下層ページ art2 */
 
@@ -1132,6 +1154,26 @@ canvas {
 
     .skill-text {
         line-height: 1.7;
+    }
+    
+    .rate1:after {
+        width: 14px;
+    }
+    
+    .rate1_5:after {
+        width: 25.2px;
+    }
+    
+    .rate2:after {
+        width: 32px;
+    }
+    
+    .rate2_5:after {
+        width: 43.5px;
+    }
+    
+    .rate3:after {
+        width: 51px;
     }
 
     /* About abo3 */
