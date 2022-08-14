@@ -558,6 +558,12 @@ canvas {
     font-weight: 300;
 }
 
+.sns-img {
+    width: 30px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
 .animation {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -1182,6 +1188,10 @@ canvas {
     }
 
     /* Contact con3 */
+    
+    .sns-img {
+        width: 25px;
+    }
 
     .animation {
         top: 50%;
