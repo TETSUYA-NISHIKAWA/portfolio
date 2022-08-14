@@ -218,21 +218,11 @@ canvas {
     margin-bottom: 64px;
     text-align: center;
     letter-spacing: .03em;
-    color: #0E1925;
 }
 
 .about .title {
     color: #fff;
 }
-
-/*
-.contact .title {
-    color: #4c88cb;
-    font-size: 9.313rem;
-    font-weight: 400;
-    letter-spacing: -.01em;
-    line-height: 1;
-}*/
 
 .contact-item {
     font-weight: 300;
