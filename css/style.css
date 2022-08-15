@@ -509,7 +509,7 @@ canvas {
 .profile {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 762px;
     margin: 0 auto;
 }
 
