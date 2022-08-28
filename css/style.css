@@ -149,7 +149,7 @@ body {
 }
 
 .mv-container {
-    padding: 0 48px;
+    padding: 0 88px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -263,7 +263,7 @@ canvas {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    left: 2%;
+    left: 1.5%;
     height: fit-content;
     transform: translateY(-50%) rotate(180deg);
 }
@@ -327,8 +327,8 @@ canvas {
     top: 0;
     bottom: 0;
     margin: auto;
-    right: -6%;
-    width: 60%;
+    right: -9%;
+    width: 63%;
 }
 
 /*--------------------------------
