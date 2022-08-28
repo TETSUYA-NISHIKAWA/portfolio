@@ -263,7 +263,7 @@ canvas {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    left: 1.5%;
+    left: 2%;
     height: fit-content;
     transform: translateY(-50%) rotate(180deg);
 }
@@ -327,7 +327,7 @@ canvas {
     top: 0;
     bottom: 0;
     margin: auto;
-    right: -9%;
+    right: -8%;
     width: 61%;
 }
 
