@@ -560,8 +560,9 @@ canvas {
 
 .sns-img {
     width: 30px;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-top: 16px;
+    display: none;
 }
 
 .animation {
